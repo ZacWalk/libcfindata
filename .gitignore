@@ -1,0 +1,11 @@
+intermediate/
+data/
+exe/
+tmp/
+.vs/
+.env
+.env.*
+build/
+vcpkg_installed/
+.dd/state/
+*.dd-backup-*
