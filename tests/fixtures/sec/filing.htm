@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE html>
+<html><HEAD data-note="a > b"><title>REMOVE HEAD</title><script>removeHead()</script></HEAD>
+<body>
+<!-- REMOVE COMMENT -->
+<style>.remove {content: "<not-a-tag>"}</style>
+<script>if (1 < 2) { var s = "<div>REMOVE SCRIPT</div>"; }</script>
+<div STYLE=" DISPLAY : none !important"><div>REMOVE HIDDEN</div>
+ <ix:header>
+  <ix:resources>
+   <xbrli:context id="duration"><xbrli:entity><xbrli:identifier scheme="synthetic">42</xbrli:identifier></xbrli:entity>
+    <xbrli:period><xbrli:startDate>2024-01-01</xbrli:startDate><xbrli:endDate>2024-03-31</xbrli:endDate></xbrli:period>
+   </xbrli:context>
+   <xbrli:context id="instant"><xbrli:period><xbrli:instant>2024-02-29</xbrli:instant></xbrli:period></xbrli:context>
+   <xbrli:unit id="USD"><xbrli:measure>iso4217:USD</xbrli:measure></xbrli:unit>
+  </ix:resources>
+ </ix:header>
+</div>
+<div>UNITED STATES</div>
+<div>SECURITIES AND EXCHANGE COMMISSION</div>
+<div>REMOVE COVER</div>
+<div>PART I</div>
+<div>Item 1. Financial Statements</div>
+<div>CONDENSED CONSOLIDATED BALANCE SHEETS</div>
+<p>Unicode: &eacute; &euro; &#8212; &#x1F680; &amp; &lt;literal&gt; &#160; &unknown;.</p>
+<p>Words <span>stay</span> <a href="#x">spaced</a>.<br/>Next line.</p>
+<table>
+ <tr><th>Metric</th><th>Amount</th></tr>
+ <tr><td>Revenue</td><td><ix:nonFraction name="us-gaap:Revenues" contextRef = "duration" unitRef='USD' decimals="-6" scale="6" format="ixt:num-dot-decimal"><span>84,000</span></ix:nonFraction></td></tr>
+ <tr><td>Loss &amp; adjustments</td><td><IX:NONFRACTION NAME="us-gaap:NetIncomeLoss" CONTEXTREF="duration" UNITREF="USD" DECIMALS="INF" SCALE="-2" SIGN="-">(1,250)</IX:NONFRACTION></td></tr>
+ <tr><td>Unescaped | pipe</td><td>12</td></tr>
+ <tr><td>&nbsp;</td><td> </td></tr>
+</table>
+<p><ix:nonNumeric name="dei:EntityRegistrantName" contextRef="instant" continuedAt="note2">Synthetic &amp; Co.<ix:exclude>REMOVE EXCLUDED</ix:exclude></ix:nonNumeric></p>
+<div hidden><ix:continuation id="note2" continuedAt="note3">Second <b>part</b>.</ix:continuation>
+ <ix:continuation id="note3">Final.</ix:continuation></div>
+<p>Nil: <ix:nonFraction name="demo:Nil" contextRef="instant" unitRef="USD" xsi:nil="true"/></p>
+<p>Exact: <ix:nonFraction name="demo:Exact" contextRef="instant" unitRef="USD" decimals="0">10000000000000001</ix:nonFraction></p>
+<div>Example | Q1 2024 Form 10-Q | 9</div>
+<hr/><ul><li>First item</li><li>Second item</li></ul>
+<div>End of synthetic filing.</div>
+</body></html>

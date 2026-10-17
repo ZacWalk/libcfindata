@@ -1,0 +1,5 @@
+Market_and_Exchange_Names,Report_Date_as_YYYY-MM-DD,Open_Interest_All,Dealer_Positions_Long_All,Dealer_Positions_Short_All,Asset_Mgr_Positions_Long_All,Asset_Mgr_Positions_Short_All,Lev_Money_Positions_Long_All,Lev_Money_Positions_Short_All,Published
+"NASDAQ-100, ""FIXTURE""
+EXCHANGE",2023-01-03,"9,007,199,254,740,993",100,90,200,150,300,250,2023-01-06
+OTHER EXCHANGE,2023-01-03,10,1,2,3,4,5,6,2023-01-06
+NASDAQ-100,2023-01-10,2000,,80,200,150,300,250,

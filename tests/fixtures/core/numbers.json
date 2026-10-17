@@ -1,0 +1,6 @@
+{
+  "trade_id": 18446744073709551615,
+  "timestamp_us": 1700000000123456,
+  "exact_above_double": 9007199254740993,
+  "nested": {"z": "\uD83D\uDE00", "a": "a\u0000b"}
+}
