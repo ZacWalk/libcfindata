@@ -1,0 +1,18 @@
+{
+  "cik":"0000000042","name":"Synthetic Example",
+  "filings":{
+    "recent":{
+      "accessionNumber":["0000000042-24-000001","0000000042-24-000002","0000000042-21-000001"],
+      "form":["10-Q","8-K","10-K"],
+      "filingDate":["2024-05-01","2024-04-01","2021-03-01"],
+      "primaryDocument":["quarter.htm","event.htm","old.htm"],
+      "reportDate":["2024-03-31","2024-04-01","2020-12-31"],
+      "acceptanceDateTime":["2024-05-01T12:34:56.000Z","2024-04-01T00:00:00.000Z","2021-03-01T00:00:00.000Z"]
+    },
+    "files":[
+      {"name":"CIK0000000042-submissions-001.json","filingFrom":"2022-01-01","filingTo":"2024-05-01"},
+      {"name":"CIK0000000042-submissions-001.json","filingFrom":"2022-01-01","filingTo":"2024-05-01"},
+      {"name":"CIK0000000042-submissions-002.json","filingFrom":"2010-01-01","filingTo":"2021-12-31"}
+    ]
+  }
+}

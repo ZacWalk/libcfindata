@@ -1,0 +1,26 @@
+{
+ "cik":42,"entityName":"Synthetic Example",
+ "facts":{
+  "dei":{
+   "EntityCommonStockSharesOutstanding":{
+    "label":"Shares","description":"Synthetic count",
+    "units":{"shares":[{"end":"2024-03-31","val":10000000000000001,"filed":"2024-05-01","form":"10-Q","accn":"0000000042-24-000001","fy":2024,"fp":"Q1"}]}
+   }
+  },
+  "us-gaap":{
+   "Revenues":{
+    "label":"Revenue","description":"Synthetic revenue",
+    "units":{
+     "USD":[
+      {"start":"2024-01-01","end":"2024-03-31","val":123.4500,"filed":"2024-05-01","form":"10-Q","accn":"0000000042-24-000001","fy":2024,"fp":"Q1","frame":"CY2024Q1"},
+      {"start":"2024-01-01","end":"2024-03-31","val":125.0000,"filed":"2024-05-02","form":"10-Q/A","accn":"0000000042-24-000003","fy":2024,"fp":"Q1"}
+     ],
+     "EUR":[{"start":"2024-01-01","end":"2024-03-31","val":111.1100,"filed":"2024-05-01"}]
+    }
+   }
+  },
+  "custom":{
+   "EntityNote":{"units":{"pure":[{"end":"2024-02-29","val":"synthetic text","filed":"2024-05-01"}]}}
+  }
+ }
+}

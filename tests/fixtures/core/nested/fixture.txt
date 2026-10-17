@@ -1,0 +1,1 @@
+Synthetic empty search directory; the parent contains the test .env.
